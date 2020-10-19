@@ -5,7 +5,7 @@ minusBtn = document.querySelector('#minus'),
 result = document.querySelector('#result'),
 PLUS = 'ADD',
 MINUS = 'MINUS';
-let count = 0;
+let count = 1;
 
 const plus = () =>{
   count++
