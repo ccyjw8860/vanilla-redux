@@ -11,11 +11,20 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>PLUS AND MINUS</title>
+    <title>Vanilla Redux 연습</title>
   </head>
   <body>
-    <button id="add">ADD</button>
-    <span id="result"></span>
-    <button id="minus"></button>
+    <div id='plus_minus'>
+      <button id="add">ADD</button>
+      <span id="result">1</span>
+      <button id="minus">MINUS</button>
+    </div>
+    <div id="toDoList">
+      <form id="toDoForm">
+        <input type="text" placeholder="할일 적기">
+        <button id='toDoBtn'>제출</button>
+      </form>
+      <ul></ul>
+    </div>
   </body>
 </html>
